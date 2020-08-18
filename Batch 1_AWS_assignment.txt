@@ -1,0 +1,53 @@
+Batch 1 | AWS Cloud Computing Essentials
+Assignment Day 3
+Name: Vamsi Sai Rajeev Ippe
+Email: vamsisnikky@gmail.com
+Mobile: +91 7013104358
+Project 1:
+
+Process: Created Windows instance & Connected Via RDP & Installed IIS using Windows Power Shell ISE
+
+Task 1:Create a windows instance using AMI :Windows 2012 R2 base
+(DONE)
+Task 2:Launch the Windows instance using RDP
+(DONE)
+Task 3:Install IIS web server using Powershell ISE
+Note:Simply copy the command below and paste in the powershell ISE to install the IIS web server.
+!!!!Powershell is case sensitive.
+Install-WindowsFeature -name Web-Server -IncludeManagementTools
+(DONE)
+Task 4:Verify successful installation of IIS Web Server
+Note :You should be able to see the Internet Information Services Web page when you paste the public IP
+into the browser.
+(DONE)
+
+IP: http://15.207.55.36/
+
+Project 2:
+
+Process: Launced Ubuntu 18.04 instance & connected via SSH using pem & launched nGinix Server 
+path: /var/www/html/
+
+Task 1:Create a windows instance using AMI :Ubuntu Server 18.04 LTS (HVM)
+(DONE Linux Instance)
+Task 2:Download and install MobaXterm Portable Edition
+(DONE)
+Task 2:Launch the Ubuntu instance using SSH
+Note:Username is ubuntu
+(DONE)
+Task 3:Install ngnix web server using bash
+Note:Simply copy the command below and paste in the bash to install the ngnix web server.
+sudo apt-get -y update
+sudo apt-get -y install nginx
+(DONE)
+Task 4:Verify successful installation of ngnix
+Note :You should be able to see the Welcome to ngnix Web page when you paste the public IP into the
+browser.
+(DONE)
+
+IP: http://3.7.79.29/
+
+
+Kindly verify & let me know if any 
+
+Thanks
